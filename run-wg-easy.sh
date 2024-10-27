@@ -22,7 +22,7 @@ docker run --detach \
   --env "PASSWORD_HASH=$PASSWORD_HASH" \
   --env PORT=51831 \
   --env WG_PORT=51830 \
-  --env WG_ALLOWED_IPS='10.8.0.0/24' \
+  --env WG_ALLOWED_IPS='10.8.0.0/24, 192.168.77.0/24' \
   --env WG_DEFAULT_ADDRESS='10.8.0.x' \
   --volume ~/.wg-easy:/etc/wireguard \
   --publish 51830:51830/udp \
