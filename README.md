@@ -13,8 +13,8 @@ https://github.com/wg-easy/wg-easy
     ```
 2. Запуск приложения
     ```shell
-    bash <(curl -sSL https://raw.githubusercontent.com/ixaker/WireGuardDocker/refs/heads/main/run-wg-easy.sh)
-
+    bash <(curl -sSL https://raw.githubusercontent.com/ixaker/gf/refs/heads/main/run-wg-easy.sh)
+    ```
 3. Зайдите в веб интерфейс по адресу `http://<ваш ip>:51821`.
 
 4. Отключить доступ из мира
